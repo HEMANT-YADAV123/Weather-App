@@ -1,0 +1,17 @@
+/* src/components/Loader.css */
+
+.loader {
+    border: 8px solid rgba(255, 255, 255, 0.2); /* Make the base color lighter */
+    border-top: 8px solid #3498db; /* Change color as needed */
+    border-radius: 50%;
+    width: 80px; /* Increase size of the spinner */
+    height: 80px; /* Increase size of the spinner */
+    animation: spin 1.5s linear infinite; /* Slow down the animation */
+    margin: 20px auto; /* Center the spinner */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
